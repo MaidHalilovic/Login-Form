@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgb(201, 5, 201) 30%,
+    rgb(209, 50, 148) 70%
+  );
+}
+.velikiDiv {
+  position: relative;
+  left: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  width: 350px;
+  top: 30px;
+  height: 450px;
+  border-radius: 7px;
+  gap: 30px;
+}
+.velikiDiv h1 {
+  font-family: "Manrope", sans-serif;
+}
+.prvi-div {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+.prvi-div button {
+  width: 130px;
+  height: 40px;
+  border: none;
+}
+.drugi-div button {
+  background: linear-gradient(
+    to right,
+    rgb(201, 5, 201) 30%,
+    rgb(209, 50, 148) 70%
+  );
+  border-radius: 5px 0px 0px 5px;
+  color: white;
+}
+.treci-div button {
+  background-color: white;
+  border: solid gray 1px;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+}
+.poseban-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.poseban-div button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 10px;
+  color: gray;
+  background-color: white;
+  border: solid gray 1px;
+  border-radius: 5px;
+  width: 255px;
+  height: 35px;
+}
+.poseban-div p {
+  background: linear-gradient(
+    to right,
+    rgb(201, 5, 201) 30%,
+    rgb(209, 50, 148) 70%
+  );
+  color: transparent;
+  background-clip: text;
+  font-family: "Urbanist", sans-serif;
+}
+.nekaKlasa button {
+  background: linear-gradient(
+    to right,
+    rgb(201, 5, 201) 30%,
+    rgb(209, 50, 148) 70%
+  );
+  width: 255px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.kraj {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+.kraj-2 {
+  background: linear-gradient(
+    to right,
+    rgb(201, 5, 201) 30%,
+    rgb(209, 50, 148) 70%
+  );
+  background-clip: text;
+  color: transparent;
+}
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+input {
+  padding: 5px;
+  font-size: 16px;
+}
